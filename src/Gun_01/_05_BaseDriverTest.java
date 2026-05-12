@@ -8,7 +8,8 @@ public class _05_BaseDriverTest extends BaseDriver {
 
     @Test
     public void Test1() {
-        Tools.Wait(5);
-        driver.get("https://www.facebook.com/");
+        driver.get("https://www.google.com/");
+        Tools.wait(2);
+        System.out.println("Base driver test olundu");
     }
 }

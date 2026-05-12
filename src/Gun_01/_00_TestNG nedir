@@ -1,0 +1,14 @@
+Bugune qeder 1 eded Test yazdiq Run etdik (Neticemizi aldiq)
+Lakin toplu olaraq Test-leri run ederken xeta ile qarsilashdiq
+
+JUnit -> bu kitabxanani layihemize elave edib
+Assert, @Test, Annotation-lari gorduk
+
+Ancaq JUnit-> developerlar ucun hazirlanmish kitabxana idi
+Tester evveller bu kitabxanadan istifade edirdi, Automation edirdi
+
+Daha yaxsi ne ola bilerdi?
+JUnit -> goturduler, tekmilleshdirdiler ve yeni versiya -> TestNG (Testerler ucun)
+
+TestNG -> kitabxanadan daha cox Test teshkilatcisi olaraq cixish edir
+TestNG layihelerimiz ucun lazimli kitabxanalar Readme senedinde yer alir
