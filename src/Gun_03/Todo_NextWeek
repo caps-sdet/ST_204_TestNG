@@ -1,1 +1,17 @@
-Burada Tapshiriq olacaq
+_02_AddressFunctionality bolmesinde elave edilen address-lerin
+testden sonra avtomatik silinmesi ucun @AfterMethod yaradın.
+
+Scenario:
+Test zamani her hansi sebebden (meselen test fail olarsa) elave edilen address-ler sistemde qala biler.
+Neticede bir neche artiq address yigilmish olur.
+
+Task:
+- Testden sonra ishleyen bir cleanup metodu yazın
+- Sistemde yalniz 1 default address qalmalidir
+- Test zamani yaradilmish butun diger address-ler silinmelidir
+- Hell dinamik olmalidir (meselen 2, 3 ve ya daha cox elave address olduqda da ishlemelidir)
+
+Manual ve ya avtomatlasidirilmis 1den cox adress elava ede bilersiz.
+_02_AddressFunctionality bolmesinde AfterMetod bosh olaraq yaradilib.
+Bu hisseni lazimli olan emrlerle doldurmaginiz gozlenilir
+Basqa bir hissede aftermetod yaradilmasina ehtiyac yoxdur.
