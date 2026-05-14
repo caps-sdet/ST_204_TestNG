@@ -12,16 +12,18 @@ public class _06_LoginTesti extends BaseDriver {
 
     @Test
     public void Test1(){
-        driver.get("https://opencart.abstracta.us/index.php?route=account/account");
+//        driver.get("https://opencart.abstracta.us/index.php?route=account/account");
+//
+//        WebElement email = driver.findElement(By.xpath("//input[@id='input-email']"));
+//        email.sendKeys("ertogrul1188kayi@gmail.com");
+//
+//        WebElement password = driver.findElement(By.xpath("//input[@id='input-password']"));
+//        password.sendKeys("8Vtc@TQvzaCCz7");
+//
+//        WebElement btnLogin = driver.findElement(By.xpath("//input[@value='Login']"));
+//        btnLogin.click();
 
-        WebElement email = driver.findElement(By.xpath("//input[@id='input-email']"));
-        email.sendKeys("ertogrul1188kayi@gmail.com");
-
-        WebElement password = driver.findElement(By.xpath("//input[@id='input-password']"));
-        password.sendKeys("8Vtc@TQvzaCCz7");
-
-        WebElement btnLogin = driver.findElement(By.xpath("//input[@value='Login']"));
-        btnLogin.click();
+        // BaseDriver-da Login emeliyyati edildiyi ucun artiq yuxaridaki emeliyyatlara ehtiyac qalmadi
 
         System.out.println("1ci driver.getTitle() = " + driver.getTitle());
         wait.until(ExpectedConditions.titleIs("My Account")); // wait bizi ola bilecek xetalardan qorudu

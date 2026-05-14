@@ -18,7 +18,6 @@ public class _02_SubsNewsLetter extends BaseDriver {
 
     @Test(priority = 1)
     public void SubsYes() {
-        Login();
         WebElement newsletterLink = driver.findElement(link);
         newsletterLink.click();
         Tools.wait(2);
@@ -36,7 +35,6 @@ public class _02_SubsNewsLetter extends BaseDriver {
 
     @Test(priority = 2)
     public void SubsNo() {
-        Login();
         WebElement newsletterLink = driver.findElement(link);
         newsletterLink.click();
         Tools.wait(2);

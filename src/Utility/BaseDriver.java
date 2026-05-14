@@ -28,6 +28,8 @@ public class BaseDriver {
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
+        Login();
     }
 
     @AfterClass
